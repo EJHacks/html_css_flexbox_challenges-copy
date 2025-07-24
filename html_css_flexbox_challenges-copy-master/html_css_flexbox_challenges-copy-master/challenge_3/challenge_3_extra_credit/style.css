@@ -12,3 +12,12 @@ img {
 	border: 5px solid black;
 	width: 516px;
 }
+
+div div {
+	display: flex;
+	justify-content: space-between;
+}
+
+div div div {
+	flex-direction: column;
+}

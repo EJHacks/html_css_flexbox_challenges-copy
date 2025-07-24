@@ -1,10 +1,9 @@
 body {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    font-family: "Helvetica", sans-serif;
-    font-size: 16px;
-    padding: 16px;
-    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-family: "Helvetica";
+    font-size: 22px;
+    padding: 20px;
 }
 
 h1 {
@@ -14,14 +13,13 @@ h1 {
 
 .big_div {
     border: 3px solid #2E549B;
-    display: flex;
     margin: 30px;
     padding: 20px;
 }
 
 .pokemon_name {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     margin: 10px;
 }
@@ -31,11 +29,11 @@ h1 {
 }
 
 img {
-    width: 200px;
+    width: 250px;
     padding-right: 50px;
 }
 
-.special {
+#special {
     font-weight: bold;
     color: rgb(255, 203, 5); 
 }
